@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">DL Calculator</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="type_and_format_header">Select Format and Type</string>
+    <string name="format_header">Format of Match</string>
+    <string name="type_and_format_desc">Welcome to DL Calculator,\nTo get started.</string>
+    <string-array name="format_entries">
+        <item>One Day International (ODI)</item>
+        <item>One Day Domestic/Club (ODD)</item>
+        <item>T20 International (T20I)</item>
+        <item>T20 Domestic/Club (T20D)</item>
+    </string-array>
+    <string name="type_header">Type of Match</string>
+    <string-array name="type_entries">
+        <item>Standard Test Playing Nations</item>
+        <item>Under 19/ Under 17/ Under 15 Teams</item>
+        <item>Women\'s Cricket Matches</item>
+        <item>Associate Nations</item>
+    </string-array>
+    <string name="type_and_format_next_button_text">Next - Enter Details for First Innings</string>
+
+    <string name="first_innings_details_header">Details for First Innings</string>
+    <string name="first_innings_details_desc">Please select the appropriate values:</string>
+    <string name="first_innings_details2_desc">No. of overs allocated at the start:\n</string>
+    <string name="first_innings_overs_header">Overs:</string>
+    <string name="first_innings_suspension_header">Add/Edit match interruptions here (if any):</string>
+    <string name="first_innings_add_edit_suspension_button_text">Add/Edit Suspensions for First Innings</string>
+    <string name="first_innings_final_score_header">Total Runs for First Innings:</string>
+    <string name="first_innings_details_next_button_text">Next - Enter Details for Second Innings</string>
+    <string name="first_innings_overs_desc">Default is 50 overs for One-Day, 20 overs for T20</string>
+
+    <string name="second_innings_details_header">Details for Second Innings</string>
+    <string name="second_innings_details_desc">Please select the appropriate values:</string>
+    <string name="second_innings_details2_desc">No. of overs allocated at the start:\n</string>
+    <string name="second_innings_overs_header">Overs:</string>
+    <string name="second_innings_suspension_header">Add/Edit match interruptions here (if any):</string>
+    <string name="second_innings_add_edit_suspension_button_text">Add/Edit Interruptions for Second Innings</string>
+    <string name="second_innings_final_score_header">Total Runs for Second Innings:</string>
+    <string name="second_innings_final_score_desc">(Enter total runs only if match is over)</string>
+    <string name="second_innings_details_next_button_text">Next - Get Final Result</string>
+    <string name="second_innings_overs_desc">Default is the number of overs alloted to First Innings</string>
+
+    <string name="final_result_header">Final Result</string>
+    <string name="calculate_final_result_button_text">Calculate Final Result</string>
+    <string name="final_result_status">Second Innings need 250 runs to win from 45 overs with 10 wickets remaining (DL Method)</string>
+    <string name="final_result_status_wait">Calculating Result. Please wait … </string>
+
+    <string name="title_activity_suspensions">Add/Edit Interruptions</string>
+
+    <string name="suspensions_list_header">Interruptions List</string>
+    <string name="add_new_suspension_button_text">Add a new Interruption</string>
+    <string name="suspensions_list_empty_text">No interruptions added yet.</string>
+    <string name="suspensions_list_non_empty_text">Tap on a interruption to edit, Long Tap to delete it. </string>
+
+    <string name="add_suspension_header">Add New Interruption</string>
+    <string name="edit_suspension_header">Edit Interruption</string>
+    <string name="suspension_score_text_desc">Runs scored\nbefore interruption:</string>
+    <string name="suspension_wickets_text_desc">Wickets lost\nbefore interruption:</string>
+    <string name="suspension_overs_before_text_desc">Overs left\nbefore interruption:</string>
+    <string name="suspension_overs_after_text_desc">Overs left\nafter interruption:</string>
+    <string name="suspension_add_button_text">Add interruption</string>
+    <string name="suspension_reset_button_text">Reset fields</string>
+    <string name="suspension_save_edits_button_text">Save Edits</string>
+    <string name="suspension_delete_button_text">Delete interruption</string>
+
+    <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1746548249634631/1446733301</string>
+
+    <string name="about_us_header">About the Project</string>
+    <string name="about_us_content">A research project submitted to the Department of Computer Science and Engineering,
+        Jahangirnagar University in partial fulfillment of the requirements for the degree of
+        \n\n<b>Master of Science in Computer Science</b>
+
+        \n\nSubmitted by-
+
+        \n\nMd. Zakir Hossain
+        \nCSE 201701030
+
+
+        \n\n\nSupervised by-
+        \nDr. Ishrat Jahan
+        \nProfessor
+        \nDepartment of Computer Science and Engineering
+        \nJahangirnagar University
+    .</string>
+
+    <string name="menu_item_share">Share</string>
+    <string name="menu_item_rate">Rate us!</string>
+    <string name="menu_item_help">About DLC</string>
+
+    <string name="about_us_share_button_text">Share this app</string>
+    <string name="about_us_rate_button_text">Rate us!</string>
+
+    <string name="title_activity_dlsplash_screen">DLSplashScreenActivity</string>
+    <string name="title_activity_dlmain">DL Calculator</string>
+</resources>

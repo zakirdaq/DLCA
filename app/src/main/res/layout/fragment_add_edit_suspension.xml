@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.fl.dlc.fragment.AddEditSuspensionFragment">
+
+    <TextView
+        android:id="@+id/add_edit_suspension_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/add_suspension_header"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/suspension_score_text_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suspension_score_text_desc" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/suspension_score_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center_horizontal"
+            android:inputType="number"
+            android:paddingBottom="5dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/suspension_wickets_text_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suspension_wickets_text_desc" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/suspension_wickets_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center_horizontal"
+            android:inputType="number"
+            android:paddingBottom="5dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/suspension_overs_before_text_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suspension_overs_before_text_desc" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/suspension_overs_before_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center_horizontal"
+            android:inputType="numberDecimal"
+            android:paddingBottom="5dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/suspension_overs_after_text_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suspension_overs_after_text_desc" />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/suspension_overs_after_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center_horizontal"
+            android:inputType="numberDecimal"
+            android:paddingBottom="5dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_suspensions_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/suspension_add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="addSuspension"
+            android:text="@string/suspension_add_button_text" />
+
+        <Button
+            android:id="@+id/suspension_reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:onClick="resetFields"
+            android:text="@string/suspension_reset_button_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_suspension_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/suspension_save_edits_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:onClick="saveEdits"
+            android:text="@string/suspension_save_edits_button_text" />
+
+        <Button
+            android:id="@+id/suspension_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:onClick="deleteSuspension"
+            android:text="@string/suspension_delete_button_text" />
+    </LinearLayout>
+
+
+</LinearLayout>

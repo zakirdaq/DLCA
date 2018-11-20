@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_suspensions_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.fl.dlc.fragment.ListSuspensionsFragment">
+
+    <TextView
+        android:id="@+id/suspensions_list_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/suspensions_list_header"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/suspensions_list_empty_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/suspensions_list_empty_text"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/add_new_suspension_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="showAddSuspensionFragment"
+        android:text="@string/add_new_suspension_button_text" />
+
+    <ListView
+        android:id="@+id/suspensions_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fadeScrollbars="false"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+</LinearLayout>
